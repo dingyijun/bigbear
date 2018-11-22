@@ -1,0 +1,76 @@
+
+@charset "utf-8";
+/* 基本字体样式 */
+/* 行高 */
+/* 基本间距 */
+/* 列表顶部选择 */
+/* 几个基本的灰度色彩 */
+/* 语意化灰度 */
+/* 基本状态色 */
+/* 网站基本蓝色 */
+/* 字体大小 */
+/* 一些辅助方法
+ ellipsis，省略号，当超过宽度时，显示省略号： */
+ul li[data-v-93c19034] {
+  list-style: none;
+}
+/* 强制换行 */
+/* display:inline-block;IE6,7块级元素对inline-block支持不好，需要触发Layout；内联元素就不需要了。 */
+/* 清除浮动，貌似最完美的解决方案 */
+/* 最小高度，IE6不支持min-height，但是使用height能达到一样的效果 */
+/* 使用纯CSS现实三角形，兼容所有浏览器；使用了三个参数，第一个是"方向"，第二个是"大小"，第三个是"颜色"，省得每次都写一大堆代码，非常方便啦； */
+/* 一个区块 */
+/* 整体居中 */
+/* 垂直居中 */
+/* 当Card底部是一个没有分页的List时 */
+.mu-card[data-v-93c19034] {
+  box-shadow: none;
+}
+.container[data-v-93c19034] {
+  background: #fff;
+}
+.grid-cell[data-v-93c19034] {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #333;
+}
+.col[data-v-93c19034] {
+  border-bottom: 1px solid #f5f5f5;
+}
+.grid-cell span[data-v-93c19034] {
+  display: -ms-flexbox;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+.grid-cell .iconfont[data-v-93c19034] {
+  font-size: 22px;
+  color: #fff;
+}
+.cBlue[data-v-93c19034] {
+  background: #a0d2f7;
+}
+.cYellow[data-v-93c19034] {
+  background: #f8dc1c;
+}
+.cPurple[data-v-93c19034] {
+  background: #eb8af7;
+}
+.cLightGreen[data-v-93c19034] {
+  background: #68dcb7;
+}
+.cRed[data-v-93c19034] {
+  background: #f9876c;
+}
+.cBrown[data-v-93c19034] {
+  background: #a45a49;
+}

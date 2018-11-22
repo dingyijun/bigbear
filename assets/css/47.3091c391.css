@@ -1,0 +1,80 @@
+
+@charset "utf-8";
+/* 基本字体样式 */
+/* 行高 */
+/* 基本间距 */
+/* 列表顶部选择 */
+/* 几个基本的灰度色彩 */
+/* 语意化灰度 */
+/* 基本状态色 */
+/* 网站基本蓝色 */
+/* 字体大小 */
+/* 一些辅助方法
+ ellipsis，省略号，当超过宽度时，显示省略号： */
+ul li {
+  list-style: none;
+}
+/* 强制换行 */
+/* display:inline-block;IE6,7块级元素对inline-block支持不好，需要触发Layout；内联元素就不需要了。 */
+/* 清除浮动，貌似最完美的解决方案 */
+/* 最小高度，IE6不支持min-height，但是使用height能达到一样的效果 */
+/* 使用纯CSS现实三角形，兼容所有浏览器；使用了三个参数，第一个是"方向"，第二个是"大小"，第三个是"颜色"，省得每次都写一大堆代码，非常方便啦； */
+/* 一个区块 */
+/* 整体居中 */
+/* 垂直居中 */
+/* 当Card底部是一个没有分页的List时 */
+.p15 {
+  padding: 15px;
+}
+.bgWhite {
+  background: #fff;
+}
+.flexCon {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  border: 1px solid #009688;
+  border-radius: 5px;
+  padding-left: 5px;
+  background: #fff;
+}
+.araeBox {
+  width: 20%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.mu-input.searchBox {
+  width: 98%;
+  min-height: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+body .mu-secondary-text-color {
+  color: #009688;
+}
+.flexCon .iconfont {
+  font-size: 20px;
+  color: #009688;
+  margin-right: 15px;
+}
+.flexCon .iconfont.icon-weizhi-blue {
+  margin-right: 0;
+}
+.searchBox input {
+  width: 100%;
+  height: 40px;
+  padding-left: 1rem;
+}
+.mu-sub-header {
+  padding-left: 0;
+}
+body .mu-chip {
+  color: #333;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.mt25 {
+  margin-top: 25px;
+}
