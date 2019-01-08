@@ -1,0 +1,104 @@
+
+@charset "utf-8";
+/* 基本字体样式 */
+/* 行高 */
+/* 基本间距 */
+/* 列表顶部选择 */
+/* 几个基本的灰度色彩 */
+/* 语意化灰度 */
+/* 基本状态色 */
+/* 网站基本蓝色 */
+/* 字体大小 */
+/* 一些辅助方法
+ ellipsis，省略号，当超过宽度时，显示省略号： */
+ul li {
+  list-style: none;
+}
+/* 强制换行 */
+/* display:inline-block;IE6,7块级元素对inline-block支持不好，需要触发Layout；内联元素就不需要了。 */
+/* 清除浮动，貌似最完美的解决方案 */
+/* 最小高度，IE6不支持min-height，但是使用height能达到一样的效果 */
+/* 使用纯CSS现实三角形，兼容所有浏览器；使用了三个参数，第一个是"方向"，第二个是"大小"，第三个是"颜色"，省得每次都写一大堆代码，非常方便啦； */
+/* 一个区块 */
+/* 整体居中 */
+/* 垂直居中 */
+/* 当Card底部是一个没有分页的List时 */
+.opus .mint-cell-wrapper {
+  background-image: none;
+  border-bottom: 1px solid #eee;
+  height: 56px;
+}
+.opus .mint-cell-swipe-button {
+  line-height: 56px;
+}
+.opus:active {
+  background-color: #eee;
+}
+
+@charset "utf-8";
+/* 基本字体样式 */
+/* 行高 */
+/* 基本间距 */
+/* 列表顶部选择 */
+/* 几个基本的灰度色彩 */
+/* 语意化灰度 */
+/* 基本状态色 */
+/* 网站基本蓝色 */
+/* 字体大小 */
+/* 一些辅助方法
+ ellipsis，省略号，当超过宽度时，显示省略号： */
+ul li[data-v-34a3b229] {
+  list-style: none;
+}
+/* 强制换行 */
+/* display:inline-block;IE6,7块级元素对inline-block支持不好，需要触发Layout；内联元素就不需要了。 */
+/* 清除浮动，貌似最完美的解决方案 */
+/* 最小高度，IE6不支持min-height，但是使用height能达到一样的效果 */
+/* 使用纯CSS现实三角形，兼容所有浏览器；使用了三个参数，第一个是"方向"，第二个是"大小"，第三个是"颜色"，省得每次都写一大堆代码，非常方便啦； */
+/* 一个区块 */
+/* 整体居中 */
+/* 垂直居中 */
+/* 当Card底部是一个没有分页的List时 */
+.content[data-v-34a3b229] {
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+.bodyer[data-v-34a3b229] {
+  -ms-flex: 1;
+      flex: 1;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.footer[data-v-34a3b229] {
+  height: 44px;
+}
+.isLink[data-v-34a3b229] {
+  position: absolute;
+  top: 19px;
+  font-size: 16px;
+  right: 15px;
+}
+.opusRow[data-v-34a3b229] {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 10px 0 0 10px;
+}
+.opusRow .mint-cell-text[data-v-34a3b229] {
+  color: #333;
+}
+.pic[data-v-34a3b229] {
+  position: absolute;
+  height: 56px;
+  width: 56px;
+  left: 0;
+  top: 0;
+}
+.opusPicRow[data-v-34a3b229] {
+  padding-left: 65px;
+}

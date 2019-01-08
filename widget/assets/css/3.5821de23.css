@@ -1,0 +1,150 @@
+
+@charset "utf-8";
+/* 基本字体样式 */
+/* 行高 */
+/* 基本间距 */
+/* 列表顶部选择 */
+/* 几个基本的灰度色彩 */
+/* 语意化灰度 */
+/* 基本状态色 */
+/* 网站基本蓝色 */
+/* 字体大小 */
+/* 一些辅助方法
+ ellipsis，省略号，当超过宽度时，显示省略号： */
+ul li {
+  list-style: none;
+}
+/* 强制换行 */
+/* display:inline-block;IE6,7块级元素对inline-block支持不好，需要触发Layout；内联元素就不需要了。 */
+/* 清除浮动，貌似最完美的解决方案 */
+/* 最小高度，IE6不支持min-height，但是使用height能达到一样的效果 */
+/* 使用纯CSS现实三角形，兼容所有浏览器；使用了三个参数，第一个是"方向"，第二个是"大小"，第三个是"颜色"，省得每次都写一大堆代码，非常方便啦； */
+/* 一个区块 */
+/* 整体居中 */
+/* 垂直居中 */
+/* 当Card底部是一个没有分页的List时 */
+.content {
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+.content > *:last-child {
+  margin-bottom: 0;
+}
+.delivery {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.delivery:active {
+  background-color: #f0f0f0;
+}
+.delivery .delivery-logo {
+  height: 65px;
+  width: 65px;
+  display: block;
+  border: 1px solid #eee;
+  padding: 5px;
+  background-color: #fff;
+  float: left;
+  margin-right: 10px;
+}
+.delivery .delivery-head {
+  margin-bottom: 10px;
+  position: relative;
+  text-align: right;
+}
+.delivery .delivery-head .delivery-title {
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: absolute;
+  left: 75px;
+  right: 120px;
+  top: 0;
+  color: #000;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+}
+.delivery .delivery-head .delivery-date {
+  font-size: 12px;
+  color: #999;
+}
+.delivery .delivery-job-area {
+  font-size: 12px;
+  color: #666;
+  float: right;
+}
+.delivery .delivery-salary-range {
+  color: #009688;
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 16px;
+}
+.delivery .delivery-foot {
+  color: #999;
+  font-size: 12px;
+  line-height: 16px;
+}
+.delivery .delivery-status {
+  font-size: 14px;
+  color: #666;
+  float: right;
+}
+.delivery .delivery-link {
+  float: right;
+  color: #0D9CE6;
+}
+.history {
+  -ms-flex: 1;
+      flex: 1;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 15px;
+}
+.history .mu-stepper-vertical {
+  background-color: #fff;
+  padding-top: 5px;
+}
+.history .stepHeader {
+  color: #333 !important;
+  font-size: 14px !important;
+}
+.history .stepConInfo {
+  font-size: 12px !important;
+}
+.history .mu-step:last-child .mu-step-content {
+  border-left-color: transparent;
+}
+.footer {
+  font-size: 0;
+}
+.footer .mu-raised-button {
+  border-radius: 0;
+  width: 50%;
+}
+
+.stepHeader[data-v-6054fcc5] {
+  font-size: 12px;
+  color: #999;
+}
+.stepConInfo[data-v-6054fcc5] {
+  color: #999;
+}
+.stepIcon[data-v-6054fcc5] {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: #009688;
+  border: 2px solid #B3DFDB;
+  margin-left: 3px;
+}
+.mu-step:last-child .mu-step-content[data-v-6054fcc5] {
+  padding-bottom: 10px;
+}
