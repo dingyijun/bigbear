@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>需要获取个人照片进行编辑是否允许此App获取相册权限？</string>
+    <key>NSCameraUsageDescription</key>
+    <string>需要获取个人相机进行拍摄是否允许此App获取相机权限？</string>
+</dict>
+</plist>
